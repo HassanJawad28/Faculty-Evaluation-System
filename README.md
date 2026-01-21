@@ -29,3 +29,10 @@ Control Flow:** Implements `for` loops for data entry and `if-else` logic for se
 4. Compile the code:
    bash
    gcc main.c -o CourseEvaluation
+## Application Preview
+
+### Summary Table - Part 1
+![Evaluation Summary 1](ScreenShots/summary_output_1.PNG)
+
+### Summary Table - Part 2
+![Evaluation Summary 2](ScreenShots/summary_output_2.PNG)
