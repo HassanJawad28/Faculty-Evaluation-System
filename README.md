@@ -1,34 +1,45 @@
- Course Evaluation System
+# Faculty Evaluation App (C)
 
-A C-based console application designed to collect and summarize performance evaluations for faculty members. This project was developed as an Open Ended Lab Practice for Computer Programming.
+## Overview
+The Faculty Evaluation App is a simple C-based console application designed to collect and evaluate student feedback about faculty members.  
+This project is created as a pet / academic project to practice core C programming concepts such as input/output handling, loops, conditionals, and basic data processing.
 
- Features
-Professor Selection: Allows users to select specific faculty members for evaluation via a serial menu.
-  Multi-Criteria Scoring: Evaluates performance based on five key metrics:
-    1. Overall Marks
-    2. Student Engagement
-    3. Course Completion
-    4. Assessment Evaluation
-    5. Management of Course
-  Data Visualization: Displays a formatted summary table of all marks at the end of the session.
-  Feedback System: Collects specific suggestions or advice for each professor using string buffers.
+## Objectives
+- Collect feedback from students
+- Evaluate faculty performance based on given criteria
+- Display evaluation results in a clear format
+- Practice structured programming in C
 
- Technical Details
-Language: C
-Data Structures: Utilizes 2D integer arrays for score storage and 2D character arrays (strings) for feedback.
-Control Flow:** Implements `for` loops for data entry and `if-else` logic for selection handling.
+## Technologies Used
+- Language: C  
+- Compiler: GCC / Dev-C++  
+- Platform: Console-based application  
 
- Project Structure
- `main.c`: The primary source code containing the logic for the evaluation system.
- `README.md`: Documentation for the project.
+## Project Structure
+Faculty-Evaluation-App/
+├── Faculty Evaluation App.c
+└── README.md
 
- How to Run
-1. Ensure you have a C compiler installed (like GCC or TDM-GCC).
-2. Download the `main.c` file.
-3. Open your terminal or command prompt.
-4. Compile the code:
-   bash
-   gcc main.c -o CourseEvaluation
+## Features
+- Simple console interface
+- Accepts faculty evaluation input
+- Processes ratings and feedback
+- Displays evaluation summary
+- Lightweight and easy to understand
+
+## How to Run
+
+### Using Dev-C++
+1. Open Dev-C++
+2. Go to File → Open
+3. Select `Faculty Evaluation App.c`
+4. Click Compile & Run
+
+### Using GCC (Command Line)
+```bash
+gcc "Faculty Evaluation App.c" -o faculty_evaluation
+./faculty_evaluation
+
 ## Application Preview
 
 ### Summary Table - Part 1
