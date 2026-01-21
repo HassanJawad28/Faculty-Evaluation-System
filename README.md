@@ -27,6 +27,14 @@ Faculty-Evaluation-App/
 - Displays evaluation summary
 - Lightweight and easy to understand
 
+## Application Preview
+
+### Summary Table - Part 1
+![Evaluation Summary 1](ScreenShots/summary_output_1.PNG)
+
+### Summary Table - Part 2
+![Evaluation Summary 2](ScreenShots/summary_output_2.PNG)
+
 ## How to Run
 
 ### Using Dev-C++
@@ -39,12 +47,3 @@ Faculty-Evaluation-App/
 ```bash
 gcc "Faculty Evaluation App.c" -o faculty_evaluation
 ./faculty_evaluation
-
-
-## Application Preview
-
-### Summary Table - Part 1
-![Evaluation Summary 1](ScreenShots/summary_output_1.PNG)
-
-### Summary Table - Part 2
-![Evaluation Summary 2](ScreenShots/summary_output_2.PNG)
