@@ -40,6 +40,7 @@ Faculty-Evaluation-App/
 gcc "Faculty Evaluation App.c" -o faculty_evaluation
 ./faculty_evaluation
 
+
 ## Application Preview
 
 ### Summary Table - Part 1
